@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Circular Progress Bar</title>
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Atomic+Age&family=Concert+One&family=Croissant+One&family=Kenia&family=Lobster&family=Nosifer&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./progresscircle.css">
+</head>
+<body>
+
+
+    <div class="skills my-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-12">
+                    <div class="section-heading text-center">
+                        <h2>My Skills</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="100">HTML</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="98">CSS</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="95">JS</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="100">Wordpress</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="90">Flutter</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="100">SQL</div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- Jquery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="./progresscircle.js"></script>
+    <script>
+        $('.circlechart').circlechart();
+    </script>
+</body>
+</html>
